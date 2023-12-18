@@ -25,3 +25,4 @@ Route::get('/register', [RegisterController::class, 'register']);
 Route::get('/logout', [LogoutController::class, 'logout']);
 
 Route::get('/login', [LoginController::class, 'login']);
+Route::get('/register', [LoginController::class, 'login']);
